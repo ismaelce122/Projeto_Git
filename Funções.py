@@ -11,7 +11,7 @@
 # Função Deletar
 
 def deletarClientes(listaClientes, nome):
-    for nomeCliente in listaClientes:
-        if nomeCliente['nome'].lower() == nome.lower():
-            listaClientes.remove(nomeCliente)
+    for i in range(len(listaClientes)):
+        if listaClientes[i]['nome'].lower() == nome.lower():
+            listaClientes.pop(i)
             return True
