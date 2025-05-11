@@ -5,6 +5,8 @@ listaClientes = [{'nome': 'Ana', 'idade': 20}, {'nome': 'Maria', 'idade': 30}]
 # while True
 
 while True:
+    print('-------------- Menu --------------')
+    print('')
     opçoes = input('1 - Cadastrar Clientes\n2 - Buscar Cientes\n3 - Deletar Clientes\n4 - Sair\n')
     print('')
     if opçoes == '4':
