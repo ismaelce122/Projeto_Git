@@ -19,3 +19,11 @@ while True:
     if opçoes == '3':
         print('-------------- Deletar Clientes --------------')
         print('')
+        nome = input('Digite o Nome Do Cliente: ')
+        print('')
+        deletar = mf.deletarClientes(listaClientes, nome)
+        if deletar == True:
+            print('Cliente Excluído com Sucesso!!!')
+        else:
+            print('Cliente Inexistente!!!')
+        print('')
